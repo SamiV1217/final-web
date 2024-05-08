@@ -1,0 +1,304 @@
+/* START Header and Nav Bar */
+.head {
+     background-color: #bebebe;
+     padding-bottom: 50px;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+}
+nav ol {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     background-color: #1f1f1f;
+}
+nav ol li {
+     display: inline-block;
+}
+.nav-link {
+     display: block;
+     color: #fff;
+     text-decoration: none;
+     padding: 15px 20px;
+     font-family: Verdana;
+     font-size: large;
+}
+/* Hover effect on list items */
+nav ol li:hover {
+     background-color: #713737;
+}
+.dropdown:hover .dropdown-menu {
+     display: block;
+   }
+.dropdown-menu {
+     display: none;
+     position: absolute;
+     background-color: #484747;
+}
+.dropdown-menu li {
+     display: block;
+}
+.dropdown-menu li a {
+     padding: 10px 20px;
+}   
+.title {
+     text-align: center;
+     margin-top: 40px;
+     font-size: 60px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* END Header and Nav Bar */
+
+/* START Main Style */
+main {
+     display: block;
+     flex: 1;
+     padding-bottom: 40px;
+}
+.page-title {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: darkred;
+     font-size: 35px;
+}
+.main-body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: large;
+}
+#mission {
+     font-size: x-large;
+     font-family: Verdana;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     font-style: italic;
+}
+#back-link {
+     margin-top: 10px;
+     margin-left: 20px;
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.no-link-style {
+     text-decoration: none;
+     display: block;
+     color: #1f1f1f;
+}
+.flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#back-link:hover {
+     color: darkred;
+}
+
+/* button style */
+.volunteer {
+     background-color: darkred;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     padding: 10px;
+     font-size: large;
+     cursor: pointer;
+     margin: 10px;
+     font-size: x-large;
+}
+.volunteer:hover {
+     background-color: #e8e4e4;
+     color: darkred;
+}
+.small-image {
+     width: 40%;
+     display: flex;
+}
+.form {
+     font-size: 20px;
+}
+input {
+     margin-top: 10px;
+}
+.center {
+     align-items: center;
+     text-align: center;
+     margin: auto;
+     display: block;
+}
+.hidden {
+     display: none;
+}
+/* END Main Sylye */
+
+
+/* START Search Bar */
+.search-container {
+     align-content: center;
+     text-align: center;
+     margin-top: 10px;
+}
+.search-container, input[type=text], input[type=email], button {
+     font-size: 24px;
+}
+.search-container button {
+     background: #ddd;
+     border: none;
+     cursor: pointer;
+   }
+.search-container button:hover {
+     background: #ccc;
+}
+/* END Search Bar */
+
+
+/* START Charities Page */
+.charity-list {
+     background-color: #e8e4e4;
+     display: flex;
+     margin-top: 50px;
+     width: 50%;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+}
+#charity {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 300;
+}
+#charity:hover {
+     color: darkred;
+}
+.icon-image {
+     width: 35%;
+     padding-top: 20px;
+}
+#smaller-image {
+     width: 20%;
+}
+/* END Charities Page */
+
+
+/* START Profile Page */
+.profile {
+     margin-top: 40px;
+     margin-bottom: 40px;
+     float: left;
+     display: flex;
+}
+.profile-text {
+     float: right;
+     margin-left: 10px;
+     margin-right: 20px;
+     width: 100%;
+}
+.profile-link {
+     color: #1f1f1f;
+}
+.profile-link:hover {
+     color: darkred;
+}
+.profile-title {
+     font-size: xx-large;
+     color: darkred;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-image {
+     margin-left: 20px;
+     width: 40%;
+     position: relative;
+}
+.arrows {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     position: relative;
+}
+.left-arrow-link {
+     display: inline-flex;
+     align-items: center;
+     font-size: 45px;
+     color: darkred;
+     cursor: pointer;
+     float: left;     
+     margin-left: 20px;
+}
+
+.right-arrow-link {
+     display: inline-flex;
+     align-items: center;
+     font-size: 45px;
+     color: darkred;
+     cursor: pointer;
+     float: right;
+     margin-right: 20px;
+}
+
+.arrow-text {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     align-items: center;
+     margin-left: 5px;
+     margin-right: 5px;
+}
+.prev-charity {
+     display: none;
+}
+.next-charity {
+     display: none;
+}
+label {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (min-width: 1100px) {
+     .profile-image {
+          width: 30%;
+     }
+}
+#contact-form {
+     margin-top: 20px;
+}
+/* END Profile Page */
+
+
+/* START Footer */
+.footer-container {
+     padding-bottom: 10px;
+}
+.footer {
+     height: 5vh;
+     font-size: 20px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* END Footer */
+
+/* START Mobile View */
+@media screen and (max-width: 800px) {
+     .search-container {
+       float: none;
+     }
+     .profile {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          align-items: center;
+          text-align: center;
+     }
+     .profile-image {
+          width: 50%;
+          float: none;
+     }
+     .profile-text {
+          float: none;
+          margin-right: 20px;
+     }
+     .volunteer {
+          font-size: large;
+     }
+     .icon-image {
+          width: 40%;
+     }
+     main {
+          max-width: fit-content;
+     }
+}
+/* END Mobile View */

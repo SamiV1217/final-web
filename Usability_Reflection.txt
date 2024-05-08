@@ -1,0 +1,6 @@
+My CSS work matches accessibility guidelines that were presented in class. 
+I ensured that my images have alt tags and ensured that the color contrast is sufficient as well. 
+I also walked through my website and tried to make sure that the flow was easy to follow. 
+The font styles will adjust based on the browser used and are clear as to what they are communicating. 
+My interactive elements include arrows and hover color changes, which is clear and easy to decipher. 
+If I made improvements, I think I would adjust font sizes and make my footer more robust. 

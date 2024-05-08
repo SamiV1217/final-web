@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="/./styles.css">
+          <script src="https://kit.fontawesome.com/0776f60b43.js" crossorigin="anonymous"></script>
+          <title>HelpHub Charity- A Kid Again</title>
+          <div class="head">
+               <nav class="nav-class">
+                    <ol class="intital-nav">
+                         <li><a href="/./index.html" class="nav-link">Home</a></li>
+                         <li><a href="/./charities.html" class="nav-link">Charities</a></li>
+                         <li class="dropdown"> 
+                              <a href="/charity_profiles/RMH.html" class="nav-link">Charity Profiles</a>
+                              <ol class="dropdown-menu" id="servicesDropdown">
+                                   <li><a href="a_Kid_Again.html" class="nav-link">A Kid Again Charity</a></li>                              
+                                   <li><a href="ACS.html" class="nav-link">American Cancer Society</a></li>
+                                   <li><a href="fairy_godmothers.html" class="nav-link">Fairy Godmothers Charity</a></li>
+                                   <li><a href="RMH.html" class="nav-link">Ronald McDonald House Charity</a></li>
+                              </ol>
+                         </li>
+                    </ol>
+               </nav>
+               <header>
+                    <h1 class="title">HelpHub</h1>
+               </header>
+          </div>
+     </head>
+
+     <body>
+          <main>
+               <div>
+                    <a href="/./charities.html" id="back-link" class="no-link-style"><i class="fas fa-arrow-left" class="arrow"></i> Back to Charities</a>
+                    <div class="profile">
+                         <img class="profile-image" src="/images/akidagain.png" alt="A Kid Again Logo">
+                         <div class="profile-text">
+                              <h2 class="profile-title">A Kid Again</h2> 
+                              <p class="main-body">A Kid Again provides fee-free adventures for families with children who are experincing terminal illness. 
+                                   This gives an opportunity for these families to experience quality family time together and supplies memories.
+                              </p>
+                              <p class="main-body">Want to learn more before you sign up?
+                                   <a href="https://akidagain.org/" class="profile-link">Click here for their homepage.</a> 
+                              </p>
+                              <button id="volunteerBtn" class="center volunteer">Volunteer Now!</button>
+                              <div id="contact-form" class="hidden center contact-form">
+                                   <form id="form" action="/./thanks.html">
+                                        <label for="name" id="name">Name:</label>
+                                        <input type="text" id="nameInput" name="name"> <br>
+                    
+                                        <label for="phone" id="phone">Phone:</label>
+                                        <input type="text" id="phoneInput" name="phone"> <br>
+                    
+                                        <label for="email" id="email">Email:</label>
+                                        <input type="email" id="emailInput" name="email"> <br>
+                                        <button id="submit" type="submit" class="volunteer">Sign Me Up!</button>
+                                   </form>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="arrows">
+                    <a href="RMH.html" id="prev-arrow" class="left-arrow-link no-link-style"><i class="fas fa-arrow-left"></i><span class="prev-charity arrow-text"> Ronald McDonald House</span></a>
+                    <a href="ACS.html" id="next-arrow" class="right-arrow-link no-link-style"><span class="next-charity arrow-text">American Cancer Society </span><i class="fas fa-arrow-right"></i></a>
+               </div>
+          </main>
+          <div class="footer-container">
+               <div class="footer">
+                    <footer>
+                         <p class="footer-text">Created by Samantha Varney, 2023</p>
+                    </footer>
+               </div>
+          </div>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="charity_profile.js"></script>
+     </body>
+</html>
